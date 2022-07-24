@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.interable", "esnext"],
-
+    "lib": ["dom", "esnext"],
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -15,7 +14,6 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true
   },
   "include": ["src"]
